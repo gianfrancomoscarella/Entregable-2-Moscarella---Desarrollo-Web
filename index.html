@@ -20,38 +20,61 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">
-          <img src="./img/logotipo-coderhouse.png" width="120" alt="Logo Coderhouse">
-        </a>
+    <!-- HEADER + NAV -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="./img/logotipo-coderhouse.png" width="120" alt="Logo Coderhouse">
+          </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#miMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#miMenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="miMenu">
-          <ul class="navbar-nav ms-auto fw-semibold">
-            <li class="nav-item"><a class="nav-link active" href="./index.html">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
-            <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-          </ul>
+          <div class="collapse navbar-collapse" id="miMenu">
+            <ul class="navbar-nav ms-auto fw-semibold">
+              <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/galeria.html">Galería</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
-    <header class="index-header">
-      <div class="header-hero text-center text-white p-5">
-        <h1>Bienvenido a Fiat</h1>
-        <p>Un espacio dedicado a la pasión por Fiat.</p>
-        <a class="index-header-botones btn btn-dark" href="#">Explorar</a>
-        <a class="index-header-botones btn btn-dark" href="#">Modelos</a>
+      <!-- HERO -->
+      <div class="index-header">
+        <div class="header-hero text-center text-white p-5">
+          <h1>Bienvenido a Fiat</h1>
+          <p>Un espacio dedicado a la pasión por Fiat.</p>
+          <a class="index-header-botones btn btn-dark" href="#">Explorar</a>
+          <a class="index-header-botones btn btn-dark" href="#">Modelos</a>
+        </div>
       </div>
     </header>
 
+    <!-- MAIN -->
     <main class="container py-4">
 
-      <div id="fiatCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div
+        id="fiatCarousel"
+        class="carousel slide mb-5"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./img/Fiat.jpg" class="d-block w-100" alt="Fiat clásico rojo">
@@ -102,28 +125,30 @@
         <article class="main-card-contenedor p-3 rounded shadow text-white">
           <img src="./img/FiatInsigniaNueva.jpg" alt="Insignia Fiat moderna">
           <h3>Insignia moderna</h3>
-          <p>La imagen la marca.</p>
+          <p>La imagen de la marca.</p>
           <button class="btn btn-dark">Comprar</button>
         </article>
 
       </section>
     </main>
 
+    <!-- FOOTER -->
     <footer class="text-center p-4">
       <h2>Seguinos en redes</h2>
 
       <a href="https://www.instagram.com/fiat/" target="_blank">
-        <img class="logosFooter" src="./img/instagramLogo.png" alt="Instagram Fiat" />
+        <img class="logosFooter" src="./img/instagramLogo.png" alt="Instagram Fiat">
       </a>
 
       <a href="https://www.linkedin.com/company/fiatauto/" target="_blank">
-        <img class="logosFooter" src="./img/LinkedInLogo.png" alt="LinkedIn Fiat" />
+        <img class="logosFooter" src="./img/LinkedInLogo.png" alt="LinkedIn Fiat">
       </a>
 
       <div class="mt-3">
-        <a href="./index.html">Inicio</a> |
-        <a href="./nosotros.html">Nosotros</a> |
-        <a href="./contacto.html">Contacto</a>
+        <a href="../index.html">Inicio</a> |
+        <a href="./pages/nosotros.html">Nosotros</a> |
+        <a href="./pages/contacto.html">Contacto</a> |
+        <a href="./pages/galeria.html">Galería</a>
       </div>
     </footer>
 

@@ -58,3 +58,9 @@ footer h2, footer a{
 .logosFooter{
   width: 5rem;
 }
+
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+}
+
